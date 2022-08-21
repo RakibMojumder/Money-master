@@ -11,124 +11,168 @@
 </head>
 
 <body>
-    <div id="card-container" class="container mx-auto grid grid-cols-12 gap-4 pt-10 pb-16">
-        <!-- players card  -->
 
-        <div class="players-card col-span-9 grid grid-cols-3 gap-6">
-            <!-- player 1 -->
-            <div class="card card-compact bg-base-100 shadow-xl">
-                <figure><img src="img/messi.png" alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h1 class="text-center my-4 text-2xl">Lionel Messi</h1>
-                    <div class="card-actions justify-center">
-                        <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+    <header>
+
+    </header>
+
+    <main>
+        <div id="card-container" class="container mx-auto h-full grid grid-cols-12 gap-4 pt-10 pb-16">
+            <!-- players card  -->
+
+            <div class="players-card col-span-9 grid grid-cols-3 gap-6">
+                <!-- player 1 -->
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure><img src="img/messi.png" alt="Shoes" class="w-full h-48" /></figure>
+                    <div class="card-body">
+                        <h1 class="text-center my-4 text-2xl">Lionel Messi</h1>
+                        <div class="card-actions justify-center">
+                            <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- player 2 -->
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure><img src="img/mbappe.png" alt="Shoes" class="w-full h-48" /></figure>
+                    <div class="card-body">
+                        <h1 class="text-center my-4 text-2xl">Kylian Mbappé</h1>
+                        <div class="card-actions justify-center">
+                            <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- player 3 -->
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure><img src="img/ramos.png" alt="Shoes" class="w-full h-48" /></figure>
+                    <div class="card-body">
+                        <h1 class="text-center my-4 text-2xl">Sergio Ramos</h1>
+                        <div class="card-actions justify-center">
+                            <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- player 4 -->
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure><img src="img/renarto.png" alt="Shoes" class="w-full h-48" /></figure>
+                    <div class="card-body">
+                        <h1 class="text-center my-4 text-2xl">Renato Sanches</h1>
+                        <div class="card-actions justify-center">
+                            <button onclick="addToList(this)" class="btn bg-green-500 text-white w-3/4">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- player 5 -->
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure><img src="img/vitor.png" alt="Shoes" class="w-full h-48" /></figure>
+                    <div class="card-body">
+                        <h1 class="text-center my-4 text-2xl">Vítor Machado</h1>
+                        <div class="card-actions justify-center">
+                            <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- player 6 -->
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure><img src="img/neymar.png" alt="Shoes" class="w-full h-48" /></figure>
+                    <div class="card-body">
+                        <h1 class="text-center my-4 text-2xl">Neymar Jr</h1>
+                        <div class="card-actions justify-center">
+                            <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- player 7 -->
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure><img src="img/de-maria.jpg" alt="Shoes" class="w-full h-48" /></figure>
+                    <div class="card-body">
+                        <h1 class="text-center my-4 text-2xl">Di Maria</h1>
+                        <div class="card-actions justify-center">
+                            <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- player 8 -->
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure><img src="img/hakimi.jpg" alt="Shoes" class="w-full h-48" /></figure>
+                    <div class="card-body">
+                        <h1 class="text-center my-4 text-2xl">Achraf Hakimi</h1>
+                        <div class="card-actions justify-center">
+                            <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- player 9 -->
+                <div class="card card-compact bg-base-100 shadow-xl">
+                    <figure><img src="img/navas.jpg" alt="Shoes" class="w-full h-48" /></figure>
+                    <div class="card-body">
+                        <h1 class="text-center my-4 text-2xl">Keylor navas</h1>
+                        <div class="card-actions justify-center">
+                            <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                        </div>
                     </div>
                 </div>
             </div>
-            <!-- player 2 -->
-            <div class="card card-compact bg-base-100 shadow-xl">
-                <figure><img src="img/mbappe.png" alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h1 class="text-center my-4 text-2xl">Kylian Mbappé</h1>
-                    <div class="card-actions justify-center">
-                        <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+
+
+            <!-- calculation card -->
+            <div class="calculation-card col-span-3 h-60">
+                <h1 class="text-center text-2xl underline my-4">Selected - V</h1>
+                <div class="player-list my-6 h-80">
+                    <div>
+                        <table class="table w-full">
+                            <tbody id="table-body">
+                                <!-- row 1 -->
+                                <!-- <tr>
+                                    <th>1</th>
+                                    <td>Cy Ganderton</td>
+                                </tr>
+                                -->
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-            </div>
-            <!-- player 3 -->
-            <div class="card card-compact bg-base-100 shadow-xl">
-                <figure><img src="img/ramos.png" alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h1 class="text-center my-4 text-2xl">Sergio Ramos</h1>
-                    <div class="card-actions justify-center">
-                        <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+
+                <div class="budget-calculate pb-11">
+                    <h1 class="text-center text-2xl underline my-4">Budget</h1>
+                    <div class="mb-4 flex">
+                        <label for="" class="w-2/4 block">Per Player : </label>
+                        <input id="per-player-input" type="number" name="" id=""
+                            class="focus:outline-none pl-4 py-1 w-2/4 block text-black">
                     </div>
-                </div>
-            </div>
-            <!-- player 4 -->
-            <div class="card card-compact bg-base-100 shadow-xl">
-                <figure><img src="img/renarto.png" alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h1 class="text-center my-4 text-2xl">Renato Sanches</h1>
-                    <div class="card-actions justify-center">
-                        <button onclick="addToList(this)" class="btn bg-green-500 text-white w-3/4">Buy Now</button>
+                    <div class="calculate-btn text-center">
+                        <button id="calculate"
+                            class="py-2 px-10 w-3/4 my-5 text-xl bg-green-500 text-white rounded-md">Calculate</button>
                     </div>
-                </div>
-            </div>
-            <!-- player 5 -->
-            <div class="card card-compact bg-base-100 shadow-xl">
-                <figure><img src="img/vitor.png" alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h1 class="text-center my-4 text-2xl">Vítor Machado</h1>
-                    <div class="card-actions justify-center">
-                        <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                    <p class="my-5 text-2xl">Player Expenses : <span id="player-expenses"
+                            class="text-green-500 ml-4 text-3xl"></span></p>
+
+                    <div class="mb-4 flex">
+                        <label for="" class="w-2/4 block">Manger: </label>
+                        <input id="manager-input-feild" type="number" name="" id=""
+                            class="focus:outline-none pl-4 py-1 w-2/4 block text-black">
                     </div>
-                </div>
-            </div>
-            <!-- player 6 -->
-            <div class="card card-compact bg-base-100 shadow-xl">
-                <figure><img src="img/neymar.png" alt="Shoes" /></figure>
-                <div class="card-body">
-                    <h1 class="text-center my-4 text-2xl">Neymar Jr</h1>
-                    <div class="card-actions justify-center">
-                        <button onclick="addToList(this)" class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                    <div class="mb-4 flex">
+                        <label for="" class="w-2/4 block">Coach : </label>
+                        <input id="coach-input-feild" type="number" name="" id=""
+                            class="focus:outline-none pl-4 py-1 w-2/4 block text-black">
                     </div>
+
+                    <div class="calculate-btn text-center">
+                        <button id="calculate-total"
+                            class="py-2 px-10 w-3/4 my-5 text-xl bg-green-500 text-white rounded-md">Calculate
+                            Total</button>
+                    </div>
+                    <p class="text-2xl">Total : <span id="total-amount" class="text-green-500 ml-4 text-3xl"></span></p>
                 </div>
             </div>
         </div>
-        <!-- calculation card -->
-        <div class="calculation-card col-span-3 h-80">
-            <h1 class="text-center text-2xl underline my-4">Selected - V</h1>
-            <div class="player-list my-6 h-80">
-                <div>
-                    <table class="table w-full">
-                        <tbody id="table-body">
-                            <!-- row 1 -->
-                            <!-- <tr>
-                                <th>1</th>
-                                <td>Cy Ganderton</td>
-                            </tr>
-                            -->
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+    </main>
 
-            <div class="budget-calculate pb-11">
-                <h1 class="text-center text-2xl underline my-4">Budget</h1>
-                <div class="mb-4 flex">
-                    <label for="" class="w-2/4 block">Per Player : </label>
-                    <input id="per-player-input" type="number" name="" id=""
-                        class="focus:outline-none pl-4 py-1 w-2/4 block text-black">
-                </div>
-                <div class="calculate-btn text-center">
-                    <button id="calculate"
-                        class="py-2 px-10 w-3/4 my-5 text-xl bg-green-500 text-white rounded-md">Calculate</button>
-                </div>
-                <p class="my-5 text-2xl">Player Expenses : <span id="player-expenses"
-                        class="text-green-500 ml-4 text-3xl"></span></p>
+    <hr class="my-20">
 
-                <div class="mb-4 flex">
-                    <label for="" class="w-2/4 block">Manger: </label>
-                    <input id="manager-input-feild" type="number" name="" id=""
-                        class="focus:outline-none pl-4 py-1 w-2/4 block text-black">
-                </div>
-                <div class="mb-4 flex">
-                    <label for="" class="w-2/4 block">Coach : </label>
-                    <input id="coach-input-feild" type="number" name="" id=""
-                        class="focus:outline-none pl-4 py-1 w-2/4 block text-black">
-                </div>
-
-                <div class="calculate-btn text-center">
-                    <button id="calculate-total"
-                        class="py-2 px-10 w-3/4 my-5 text-xl bg-green-500 text-white rounded-md">Calculate
-                        Total</button>
-                </div>
-                <p class="text-2xl">Total : <span id="total-amount" class="text-green-500 ml-4 text-3xl"></span></p>
-            </div>
-        </div>
-    </div>
-
+    <footer class="pb-14 text-center">
+        <h1>Copyright @ 2022 All Rights Reserved By Rakib Mojumber.</h1>
+    </footer>
     <script src="js/utilities.js"></script>
     <script src="js/index.js"></script>
 </body>
