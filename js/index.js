@@ -1,14 +1,11 @@
 
 let count = 0;
-let playerArray = [];
 function addToList(button) {
     count++;
     if (count > 5) {
         return alert('you have already choose 5 players. You can not choose anymore player');
     } else {
         const playerName = button.parentElement.parentElement.children[0].innerText;
-
-        playerArray.push(playerName);
 
         createElement(playerName, button);
     }
@@ -19,7 +16,12 @@ document.getElementById('calculate').addEventListener('click', function () {
     const perPlayerInputFeild = document.getElementById('per-player-input');
     const perPlayerInputFeildValue = parseInt(perPlayerInputFeild.value);
 
-    playerExpenses.innerText = count * perPlayerInputFeildValue;
+    if (perPlayerInputFeild.value === '') {
+        return alert('please enter input number');
+    } else {
+        playerExpenses.innerText = count * perPlayerInputFeildValue;
+    }
+
 });
 
 document.getElementById('calculate-total').addEventListener('click', function () {
