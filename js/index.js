@@ -17,7 +17,7 @@ document.getElementById('calculate').addEventListener('click', function () {
     const perPlayerInputFeildValue = parseInt(perPlayerInputFeild.value);
 
     if (perPlayerInputFeild.value === '') {
-        return alert('please enter input number');
+        return alert('please enter the per player input number');
     } else {
         playerExpenses.innerText = count * perPlayerInputFeildValue;
     }
@@ -40,5 +40,9 @@ document.getElementById('calculate-total').addEventListener('click', function ()
     // get total amount element
     const totalAmount = document.getElementById('total-amount');
 
-    totalAmount.innerText = managerInputFeildValue + coachInputFeildValue + playerExpensesValue;
+    if ((managerInputFeild.value === '') || (coachInputFeild.value === '') || (playerExpenses.innerText === '')) {
+        return alert('please enter input number');
+    } else {
+        totalAmount.innerText = managerInputFeildValue + coachInputFeildValue + playerExpensesValue;
+    };
 })

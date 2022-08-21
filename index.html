@@ -19,8 +19,9 @@
             </div>
             <div class="header-text flex flex-col justify-center items-center">
                 <h1 class="text-6xl text-orange-600 my-4">Choose Your Dream Five</h1>
-                <p class="w-2/4">Build your team with lot of passion and agression. Choose the best five player for
-                    making your dream team. Which wil</p>
+                <p class="w-2/4 text-center">Build your team with lot of passion and agression. Choose the best five
+                    player to
+                    craete your dream team. Which will be unstopalbe and invicible.</p>
             </div>
         </div>
     </header>
@@ -124,9 +125,9 @@
 
 
             <!-- calculation card -->
-            <div class="calculation-card col-span-3 h-60">
+            <div class="calculation-card col-span-3 h-60 p-3">
                 <h1 class="text-center text-2xl underline my-4">Selected - V</h1>
-                <div class="player-list my-6 h-80">
+                <div class="player-list my-6 h-80 border border-slate-400 rounded-lg">
                     <div>
                         <table class="table w-full">
                             <tbody id="table-body">
@@ -152,8 +153,10 @@
                         <button id="calculate"
                             class="py-2 px-10 w-3/4 my-5 text-xl bg-green-500 text-white rounded-md">Calculate</button>
                     </div>
-                    <p class="my-5 text-2xl">Player Expenses : <span id="player-expenses"
-                            class="text-green-500 ml-4 text-3xl"></span></p>
+                    <div class="flex justify-between">
+                        <p class="my-5 text-2xl">Player Expenses :</p>
+                        <span id="player-expenses" class="text-green-500 text-right ml-4 text-3xl">0</span>
+                    </div>
 
                     <div class="mb-4 flex">
                         <label for="" class="w-2/4 block">Manger: </label>
@@ -171,7 +174,10 @@
                             class="py-2 px-10 w-3/4 my-5 text-xl bg-green-500 text-white rounded-md">Calculate
                             Total</button>
                     </div>
-                    <p class="text-2xl">Total : <span id="total-amount" class="text-green-500 ml-4 text-3xl"></span></p>
+                    <div class="flex justify-between">
+                        <p class="text-2xl w-2/4">Total :</p>
+                        <span id="total-amount" class="text-green-500 w-2/4 ml-4 text-right text-3xl">0</span>
+                    </div>
                 </div>
             </div>
         </div>
