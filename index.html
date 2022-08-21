@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div id="card-container" class="container mx-auto grid grid-cols-12 gap-4">
+        <!-- players card  -->
+
+        <div class="players-card col-span-9 grid grid-cols-3 gap-6">
+            <!-- player 1 -->
+            <div class="card card-compact bg-base-100 shadow-xl">
+                <figure><img src="img/messi.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h1 class="text-center my-4 text-2xl">Lionel Messi</h1>
+                    <div class="card-actions justify-center">
+                        <button class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- player 2 -->
+            <div class="card card-compact bg-base-100 shadow-xl">
+                <figure><img src="img/mbappe.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h1 class="text-center my-4 text-2xl">Kylian Mbappé</h1>
+                    <div class="card-actions justify-center">
+                        <button class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- player 3 -->
+            <div class="card card-compact bg-base-100 shadow-xl">
+                <figure><img src="img/ramos.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h1 class="text-center my-4 text-2xl">Sergio Ramos</h1>
+                    <div class="card-actions justify-center">
+                        <button class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- player 4 -->
+            <div class="card card-compact bg-base-100 shadow-xl">
+                <figure><img src="img/renarto.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h1 class="text-center my-4 text-2xl">Renato Sanches</h1>
+                    <div class="card-actions justify-center">
+                        <button class="btn bg-green-500 text-white w-3/4">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- player 5 -->
+            <div class="card card-compact bg-base-100 shadow-xl">
+                <figure><img src="img/vitor.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h1 class="text-center my-4 text-2xl">Vítor Machado</h1>
+                    <div class="card-actions justify-center">
+                        <button class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <!-- player 6 -->
+            <div class="card card-compact bg-base-100 shadow-xl">
+                <figure><img src="img/neymar.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h1 class="text-center my-4 text-2xl">Neymar Jr</h1>
+                    <div class="card-actions justify-center">
+                        <button class="btn bg-green-600 text-white w-3/4">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- calculation card -->
+        <div class="calculation-card col-span-3">
+            <h1>Selected - V</h1>
+            <div class="budget-calculate">
+                <h1 class="text-center text-2xl underline my-4">Budget</h1>
+                <div>
+                    <label for="">Per Player : </label>
+                    <input type="number" name="" id="" class="focus:outline-none py-1 w-3/4">
+                </div>
+                <div class="calculate-btn text-center">
+                    <button class="py-2 px-10 w-3/4 my-5 text-xl bg-green-500 text-white rounded-md">Calculate</button>
+                </div>
+                <p class="my-5 text-2xl">Player Expenses : </p>
+
+                <div class="mb-4">
+                    <label for="">Manager: </label>
+                    <input type="number" name="" id="" class="focus:outline-none py-1 w-3/4">
+                </div>
+                <div class="mb-4">
+                    <label for="">Coach : </label>
+                    <input type="number" name="" id="" class="focus:outline-none py-1 w-3/4">
+                </div>
+
+                <div class="calculate-btn text-center">
+                    <button class="py-2 px-10 w-3/4 my-5 text-xl bg-green-500 text-white rounded-md">Calculate
+                        Total</button>
+                </div>
+                <p class="my-5 text-2xl">Total : </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
