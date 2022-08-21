@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <div id="card-container" class="container mx-auto grid grid-cols-12 gap-4">
+    <div id="card-container" class="container mx-auto grid grid-cols-12 gap-4 pt-10 pb-16">
         <!-- players card  -->
 
         <div class="players-card col-span-9 grid grid-cols-3 gap-6">
@@ -77,33 +77,63 @@
             </div>
         </div>
         <!-- calculation card -->
-        <div class="calculation-card col-span-3">
-            <h1>Selected - V</h1>
-            <div class="budget-calculate">
-                <h1 class="text-center text-2xl underline my-4">Budget</h1>
+        <div class="calculation-card col-span-3 h-80">
+            <h1 class="text-center text-2xl underline my-4">Selected - V</h1>
+            <div class="player-list my-6 h-80">
                 <div>
-                    <label for="">Per Player : </label>
-                    <input type="number" name="" id="" class="focus:outline-none py-1 w-3/4">
+                    <table class="table w-full">
+                        <tbody>
+                            <!-- row 1 -->
+                            <tr>
+                                <th>1</th>
+                                <td>Cy Ganderton</td>
+                            </tr>
+                            <!-- <tr>
+                                <th>1</th>
+                                <td>Cy Ganderton</td>
+                            </tr>
+                            <tr>
+                                <th>1</th>
+                                <td>Cy Ganderton</td>
+                            </tr>
+                            <tr>
+                                <th>1</th>
+                                <td>Cy Ganderton</td>
+                            </tr>
+                            <tr>
+                                <th>1</th>
+                                <td>Cy Ganderton</td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="budget-calculate pb-11">
+                <h1 class="text-center text-2xl underline my-4">Budget</h1>
+                <div class="mb-4 flex">
+                    <label for="" class="w-2/4 block">Per Player : </label>
+                    <input type="number" name="" id="" class="focus:outline-none py-1 w-2/4 block text-black">
                 </div>
                 <div class="calculate-btn text-center">
                     <button class="py-2 px-10 w-3/4 my-5 text-xl bg-green-500 text-white rounded-md">Calculate</button>
                 </div>
                 <p class="my-5 text-2xl">Player Expenses : </p>
 
-                <div class="mb-4">
-                    <label for="">Manager: </label>
-                    <input type="number" name="" id="" class="focus:outline-none py-1 w-3/4">
+                <div class="mb-4 flex">
+                    <label for="" class="w-2/4 block">Manger: </label>
+                    <input type="number" name="" id="" class="focus:outline-none py-1 w-2/4 block text-black">
                 </div>
-                <div class="mb-4">
-                    <label for="">Coach : </label>
-                    <input type="number" name="" id="" class="focus:outline-none py-1 w-3/4">
+                <div class="mb-4 flex">
+                    <label for="" class="w-2/4 block">Coach : </label>
+                    <input type="number" name="" id="" class="focus:outline-none py-1 w-2/4 block text-black">
                 </div>
 
                 <div class="calculate-btn text-center">
                     <button class="py-2 px-10 w-3/4 my-5 text-xl bg-green-500 text-white rounded-md">Calculate
                         Total</button>
                 </div>
-                <p class="my-5 text-2xl">Total : </p>
+                <p class="text-2xl">Total : </p>
             </div>
         </div>
     </div>
