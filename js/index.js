@@ -3,6 +3,7 @@ let count = 0;
 function addToList(button) {
     count++;
     if (count > 5) {
+        count = 5;
         return alert('you have already choose 5 players. You can not choose anymore player');
     } else {
         const playerName = button.parentElement.parentElement.children[0].innerText;
